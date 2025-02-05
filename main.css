@@ -8,6 +8,19 @@
 }
 
  
+html {
+    font-size: 60.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    font-size: 1.6rem;
+}
+
+img, svg {
+    width: 100%;
+}
 
 body {
     display: flex;
@@ -222,20 +235,13 @@ body {
 .onOf {
 
     position: absolute;
-
     background-color: rgb(227, 227, 227);
-
     width: 25px;
-
     height: 3px;
-
     z-index: 10;
-
     border-radius: 10px;
-
     bottom: 25px;
-
-    left: 35%;
+    left: 37%;
 
 }
 
@@ -267,3 +273,25 @@ body {
 
 }
 
+
+
+
+
+footer {
+    text-align: center;
+    color: var(--dark1);
+    margin-top: 5rem;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer span {
+    cursor: pointer;
+}
+
+footer span:hover {
+    text-decoration: underline;
+    
+}
